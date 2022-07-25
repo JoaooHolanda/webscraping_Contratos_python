@@ -4,6 +4,7 @@
 # Supports By: Jumario, João Pedro.
 # Enterprise: Normatel Engenharia
 # Purpose: Portal Petrobras Scrape Automatation
+# Release data - 24.07.2022
 #=========================================================== 
 
  
