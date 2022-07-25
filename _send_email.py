@@ -16,8 +16,8 @@ def sendEmail():
     #setando o notificar por email o cliente!
     host ='smtp.office365.com' #imutavel, a n ser que haja erro no server
     port = '587' #imutavel, a n ser que haja erro no server
-    login = 'joao.holanda@normatel.com.br'
-    senha = 'Brasil2021'
+    login = #hotmail que deseja usar para mandar!
+    senha = #senha da conta que irá enviar!
 
 
     server = smtplib.SMTP(host,port)      
