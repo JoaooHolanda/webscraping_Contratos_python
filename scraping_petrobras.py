@@ -115,18 +115,17 @@ def PegarContratos():
         
         
         Linha = Linha + 1
-        tabela.to_excel("Valores.xlsx",index=False)
+        tabela.to_excel("Contratos.xlsx",index=False)
         driver.close()
         #mudando o verificar para 0, para travar e acabar o While! 
         if(tabela.loc[Linha,"Contrato"] == None and tabela.loc[Linha,"ICJ"] == None ):
             Verificador = 0
-            #sendEmail()
+            sendEmail()
             sleep(1)
             
         
 
     else:
-        
         quit()
         
 
